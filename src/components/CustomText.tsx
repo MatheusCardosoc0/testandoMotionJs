@@ -22,7 +22,7 @@ export const TypingText = ({styleText, text}: CustomTextProps) => (
 
 export const TypingTitle = ({text, styleText} : CustomTextProps) => (
   <motion.h2 
-  variants={textContainer}
+  variants={textVariant2}
   className={`font-normal text-[2rem]  md:text-[4rem] text-gray-50 ${styleText}`}>
     {Array.from(text).map((letter, index) => (
       <motion.span variants={textVariant2} key={index}>
