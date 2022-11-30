@@ -109,3 +109,8 @@ body{
   background: #65c4fa;
   filter: blur(150px);
 }
+
+.not-scroll::-webkit-scrollbar {
+  width: 0px;               /* width of the entire scrollbar */
+  
+}

@@ -15,10 +15,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
+    <main className='overflow-x-hidden not-scroll'>
       <Navbar />
       <Hero />
-      <div className='relative'>
+      <div className='relative flex flex-col gap-12'>
         <About />
         <div className='gradient-03 z-0' />
         <Explore />
@@ -35,7 +35,7 @@ function App() {
         <Feedback />
       </div>
       <Footer />
-    </div>
+    </main>
   )
 }
 
