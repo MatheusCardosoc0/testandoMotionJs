@@ -27,23 +27,23 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Encontre um mundo que combina com você e você deseja entrar',
+  'Entre no mundo lendo basmalah para estar seguro',
+  'Não há necessidade de rodeios, apenas fique no acelerador e divirta-se',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'Novo mundo',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'temos a atualização mais recente com o novo mundo para você tentar, não importa',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'Mais realismo',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'Na atualização mais recente, seus olhos estão estreitos, tornando o mundo mais realista do que nunca',
   },
 ];
 

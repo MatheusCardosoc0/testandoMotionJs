@@ -127,7 +127,7 @@ export const planetVariants = ({direction}: any) => ({
   },
 });
 
-export const zoomIn = ({delay, duration}: any) => ({
+export const zoomIn = (delay: number, duration: number) => ({
   hidden: {
     scale: 0,
     opacity: 0,
